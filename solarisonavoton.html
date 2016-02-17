@@ -31,14 +31,17 @@ Richard Spindler
 
 # Agenda
 
-1. Introduction
-- Why build this box?
-2. Shallow-dive
-- A bit of a look at the hardware and Solaris
-- What works and what doesn't
-3. To-Do
-- Potentially fixing what doesn't work
-3. Questions
+- Introduction
+ - Why build this box?
+
+- Shallow-dive
+ - A bit of a look at the hardware and Solaris
+ - What works and what doesn't
+
+- To-Do
+ - Potentially fixing what doesn't work
+
+- Questions
 
 ---
 
@@ -80,7 +83,7 @@ Richard Spindler
 - Play around with Docker
   - Because after years of Architects not understanding secure containers with their own IP stacks, it's ok to roll out insecure containers without their own IP stack
   - Because according to Red Hat Enterprise Containers don't have to support Enterprise Applications
-  - Getting to do random developer stuff in production and playing with latest tools is the way of the future
+  - Because getting to do random developer stuff in production and playing with latest tools is the way of the future
 
 ---
 
@@ -109,12 +112,6 @@ background-image: url(mpstat.png)
 
 ---
 
-background-image: url(prtdiag.png)
-
-# prtdiag
-
----
-
 background-image: url(isainfo.png)
 
 # isainfo
@@ -127,6 +124,23 @@ background-image: url(psrinfo.png)
 
 ---
 
+background-image: url(motherboard.png)
+
+---
+
+background-image: url(iolayout.png)
+
+- green = works
+- orange = driver issues
+
+---
+
+background-image: url(prtdiag.png)
+
+# prtdiag
+
+---
+
 background-image: url(format.png)
 
 # format
@@ -135,7 +149,18 @@ background-image: url(format.png)
 
 background-image: url(iostatEn.png)
 
-# iostat
+# iostat -En
+
+---
+
+# In Win MS04-01 Black Mini ITX Case
+
+- 315W PSU
+- Mini 4 bay server tower
+- SATA backplane x 4 (6GB/s)
+- No longer available due to EOL
+- Alternative is SilverStone DS380
+- Awaiting SilverStone CS280 availability
 
 ---
 
@@ -155,33 +180,12 @@ background-image: url(inwin_frontbays.jpg)
 
 ---
 
-background-image: url(motherboard.png)
-
----
-
-background-image: url(iolayout.png)
-
-- green = works
-- orange = driver issues
-
----
-
 background-image: url(cs280.jpg)
 
 # Silverstone CS280 (Not yet released)
 
 ---
 
-# In Win MS04-01 Black Mini ITX Case
-
-- 315W PSU
-- Mini 4 bay server tower
-- SATA backplane x 4 (6GB/s)
-- No longer available due to EOL
-- Alternative is SilverStone DS380
-- Awaiting SilverStone CS280 availability
-
----
 background-image: url(asrock_avoton.jpg)
 
 # ASRock
@@ -352,6 +356,8 @@ background-image: url(ipmi_sensors.png)
 ---
 
 # Links
+
+<a href="https://github.com/richardatlateralblast/solarisonavoton">Solaris on Avoton Presentation</a>
 
 <a href="http://www.asrockrack.com/general/productdetail.asp?Model=C2750D4I#Specifications">ASRock C2750D4I Mini ITX Motherboard</a>
 
