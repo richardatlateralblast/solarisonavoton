@@ -5,8 +5,6 @@ Introduction
 
 A shallow-dive into Solaris on Avoton.
 
-[]
-
 Installation
 ------------
 
