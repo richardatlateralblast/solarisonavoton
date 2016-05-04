@@ -7,12 +7,20 @@ Introduction
 
 A shallow-dive into Solaris on Avoton.
 
-Installation
-------------
+This presentation was written using remark.js.
+
+[Online copy of presentation](https://richardatlateralblast.github.io/solarisonavoton/index.html#1)
+
+Local Installation
+------------------
+
+Clone the repository:
 
 ```
 $ git clone https://github.com/richardatlateralblast/solarisonavoton.git
 ```
+
+Then open the directory in a web browser
 
 License
 -------
