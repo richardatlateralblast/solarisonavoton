@@ -9,7 +9,7 @@ A shallow-dive into Solaris on Avoton.
 
 This presentation was written using remark.js.
 
-[Online copy of presentation](https://richardatlateralblast.github.io/solarisonavoton/index.html#1)
+[Online copy of presentation](https://richardatlateralblast.github.io/solarisonavoton/)
 
 Local Installation
 ------------------
